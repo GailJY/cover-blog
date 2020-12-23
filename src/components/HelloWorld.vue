@@ -1,6 +1,5 @@
 <template>
-
-  <div class="header" :class="[nowIndex]">
+  <div class="header" >
     <div class="main">
       <div class="main_inner inverted">
           <div class="main_content">
@@ -27,7 +26,8 @@
               <nav class="cover-navigations">
                 <ul class="navigations">
                   <li class="navigation_item"><router-link to="/">博客主页</router-link></li>
-                  <li class="navigation_item"><router-link to="/about">所有文章</router-link></li>
+                  <li class="navigation_item"><router-link to="/about"
+                  >所有文章</router-link></li>
                   <li class="navigation_item"><router-link to="">标签</router-link></li>
                   <li class="navigation_item"><router-link to="">技术支持</router-link></li>
                   <li class="navigation_item"><router-link to="">关于我</router-link></li>

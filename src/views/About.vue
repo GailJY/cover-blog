@@ -1,16 +1,18 @@
 <template>
   <div class="about">
     <HelloWorld msg="叶嘉宇" name="Gail" info="Web/前端学习" :class="{cover_collapsed:isActive}"/>
+    <Contain></Contain>
   </div>
 </template>
 
 <script>
 import HelloWorld from '@/components/HelloWorld.vue';
-
+import Contain from '@/components/Contain.vue';
 export default{
   name: "about",
   components: {
-    HelloWorld
+    HelloWorld,
+    Contain
   },
   data() {
     return{
@@ -25,5 +27,6 @@ export default{
     width:22%;
     max-width:320px;
 }
+
 </style>
 
